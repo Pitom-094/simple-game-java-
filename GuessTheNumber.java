@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class GuessTheNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int randomNumber = (int) (Math.random() * 100) + 1; // Random number between 1 and 100
+        int randomNumber = (int) (Math.random() * 100) + 1; 
         int guess = 0;
         int attempts = 0;
 
